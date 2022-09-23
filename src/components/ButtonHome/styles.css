@@ -1,0 +1,28 @@
+.btn-home {
+  height: 45px;
+  width: 152px;
+  margin: 28px 60px 9px;
+  background-color: #00285f;
+  border-radius: 5px;
+}
+
+.btn-home span {
+  color: #fff;
+  font-size: 15px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.btn-card {
+  height: 40px;
+  margin: 0px 20px 15px 20px;
+  background-color: #00285f;
+  border-radius: 5px;
+}
+
+.btn-card span {
+  color: #fff;
+  font-size: 16px;
+}

@@ -103,3 +103,13 @@
     align-items: center;
   }
 }
+
+@media (min-width: 768px) {
+  .home-image-container {
+    padding-top: 80px;
+  }
+
+  .home-content-container {
+    padding-bottom: 15px;
+  }
+}

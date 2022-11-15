@@ -1,24 +1,31 @@
 .main-nav {
-    padding-left: 24px !important;
-    min-height: 70px;
+  padding-left: 24px !important;
+  min-height: 70px;
 }
 
-.nav-logo-text, .nav-logo-text:hover {
-    color: #00285F;
+.nav-logo-text,
+.nav-logo-text:hover {
+  color: #00285f;
 }
 
 .main-menu {
-    display: flex;
-    font-size: 18px;
-    width: 320px;
-    justify-content: space-evenly;
+  display: flex;
+  font-size: 18px;
+  width: 320px;
+  justify-content: space-evenly;
 }
 
 .main-menu a:hover {
-    color: #00285F;
+  color: #00285f;
 }
 
 .main-menu a.active {
-    color: #00285F;
-    font-weight: bold;
+  color: #00285f;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .navbar-collapse {
+    flex-grow: unset!;
+  }
 }

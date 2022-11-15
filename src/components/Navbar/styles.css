@@ -1,6 +1,19 @@
+.navbar-dark .navbar-toggler-icon {
+  background-image: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%280, 40, 95, 1%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e');
+}
+
+.navbar-dark .navbar-toggler {
+  border: 0px transparent;
+}
+
 .main-nav {
   padding-left: 24px !important;
   min-height: 70px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-logo-text,
@@ -11,8 +24,9 @@
 .main-menu {
   display: flex;
   font-size: 18px;
-  width: 320px;
-  justify-content: space-evenly;
+  width: 180px;
+  justify-content: space-between;
+  padding-right: 10px;
 }
 
 .main-menu a:hover {
@@ -25,7 +39,8 @@
 }
 
 @media (min-width: 768px) {
-  .navbar-collapse {
-    flex-grow: unset!;
+  #carrostop-navbar {
+    display: flex;
+    justify-content: flex-end;
   }
 }

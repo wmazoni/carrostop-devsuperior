@@ -113,3 +113,18 @@
     padding-bottom: 15px;
   }
 }
+
+@media (min-width: 992px) {
+  .home-image-container {
+    padding-top: 85px;
+  }
+
+  .home-image-container svg {
+    width: 455px;
+  }
+
+  .home-content-container {
+    padding-bottom: 20px;
+    margin-bottom: 35px;
+  }
+}

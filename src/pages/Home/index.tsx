@@ -1,14 +1,12 @@
 
 import { ReactComponent as MainImage } from 'assets/images/car-header.svg';
 import ButtonHome from 'components/ButtonHome';
-import Navbar from 'components/Navbar';
 import './styles.css'
 
 
 const Home = () => {
   return (
     <>
-      <Navbar />
       <div className='home-container'>
         <div className='home-card'>
             <div className='home-content-container'>

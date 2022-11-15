@@ -1,5 +1,6 @@
 
 import { ReactComponent as MainImage } from 'assets/images/car-header.svg';
+import {Link} from 'react-router-dom'
 import ButtonHome from 'components/ButtonHome';
 import './styles.css'
 
@@ -18,9 +19,9 @@ const Home = () => {
             </div>
         </div>
         <div className='home-button-container base-card'>
-          <a href='link'>
+          <Link to='/products'>
             <ButtonHome />
-          </a>
+          </Link>
           <div className='button-content-container'>
             <p>Comece agora a navegar</p>
           </div>

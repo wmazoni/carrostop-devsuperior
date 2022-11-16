@@ -22,11 +22,11 @@
 
 .product-card .card-bottom-container p {
     font-size: 12px;
-    align-items: center;
     font-style: italic;
     color: #585858;
     margin: 0px 10px 40px 15px;
     font-weight: 400;
+    padding-left: 10px;
 }
 
 @media (min-width: 768px) {

@@ -44,3 +44,14 @@
     justify-content: flex-end;
   }
 }
+
+@media (min-width: 1200px) {
+
+  .main-menu {
+    display: flex;
+    font-size: 18px;
+    width: 370px;
+    justify-content: space-evenly;
+    padding-right: 10px;
+  }
+}

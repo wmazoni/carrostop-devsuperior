@@ -143,3 +143,29 @@
     margin-bottom: 35px;
   }
 }
+
+@media (min-width: 1200px) {
+  .home-container {
+    padding: 30px 115px 100px 106px;
+  }
+
+  .home-card {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+
+  .home-content-container {
+    margin: 115px 30px 100px -20px;
+    padding: 0px 16px 0px 0px;
+  }
+
+  .home-image-container {
+    padding: 65px 130px 0px 0px;
+  }
+
+  .home-image-container svg {
+    width: 335px;
+    margin-left: -140px;
+  }
+}

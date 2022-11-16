@@ -7,7 +7,6 @@ import './styles.css'
 
 const Home = () => {
   return (
-    <>
       <div className='home-container'>
         <div className='home-card'>
             <div className='home-content-container'>
@@ -27,7 +26,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </>
   );
 };
 

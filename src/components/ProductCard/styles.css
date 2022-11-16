@@ -34,3 +34,9 @@
       font-size: 14px;
     }
 }
+
+@media (min-width: 1200px) {
+    .product-card .card-bottom-container p {
+      margin: 0px 20px 40px 22px;
+    }
+  }

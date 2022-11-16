@@ -2,9 +2,11 @@ import './styles.css';
 
 const ButtonHome = () => {
   return (
-    <button className="btn btn-home">
-      <span>VER CATÁLOGO</span>
-    </button>
+    <div className='btn-home-container'>
+      <button className="btn btn-secondary btn-home">
+        <span>VER CATÁLOGO</span>
+      </button>
+    </div>
   );
 };
 

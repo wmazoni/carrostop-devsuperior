@@ -3,11 +3,11 @@ import './styles.css'
 const ButtonCard = () => {
     return (
         <div className="d-grid gap-2">
-            <button className="btn btn-card">
+            <button className="btn btn-secondary btn-card">
                 <span>COMPRAR</span>
             </button>
         </div>
-    )
-}
+    );
+};
 
 export default ButtonCard

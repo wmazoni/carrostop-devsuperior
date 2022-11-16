@@ -15,18 +15,6 @@
   text-align: center;
 }
 
-.btn-card {
-  height: 40px;
-  margin: 0px 20px 15px 20px;
-  background-color: #00285f;
-  border-radius: 5px;
-}
-
-.btn-card span {
-  color: #fff;
-  font-size: 16px;
-}
-
 @media (min-width: 576px) {
   .btn-home {
     height: 40px;

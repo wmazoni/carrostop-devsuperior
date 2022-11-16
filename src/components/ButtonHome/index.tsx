@@ -2,7 +2,7 @@ import './styles.css';
 
 const ButtonHome = () => {
   return (
-    <div className='btn-home-container'>
+    <div>
       <button className="btn btn-secondary btn-home">
         <span>VER CATÁLOGO</span>
       </button>
